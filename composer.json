@@ -1,7 +1,10 @@
 {
     "autoload": {
         "psr-4": {
-            "Jzh1\\Weather\\": "src"
+            "Jzh1\\Weather\\": "./src/"
         }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
     }
 }
